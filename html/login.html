@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="../css/login.css">
+  </head>
+<body>
+
+	<div class="avatar">
+      <div class="formbox">
+	  	  <img src="../assets/avatar.png" class="profile">
+	    <div class="btnbox">
+		  <div id="btn"> </div>
+		  	<button type="button" class="togglebtn" onclick="login()">Connexion</Button>
+		  	<button type="button" class="togglebtn" onclick="register()">S'inscrire</Button>
+		  </div>
+	 
+	  	 <form id="login" class="inputgrp">
+	      <input type="text" class="inputfield" placeholder="Email" required>
+	      <input type="text" class="inputfield" placeholder="Mot De Passe">
+	      <input type="checkbox" class="chkbx"> <span>Enregistrer Mot De Passe</span>
+		  <input type="button" class="btn" value="Connexion">
+		 </form>
+	     <form id="register" class="inputgrp">
+	      <input type="text" class="inputfield" placeholder="Nom" required>
+		  <input type="email" class="inputfield" placeholder="Email" required>
+		  <input type="text" class="inputfield" placeholder="Mot De Passe">
+	      <input type="checkbox" class="chkbx"> <span>J'accepte Les Termes Du Contract</span>
+		  <input type="button" class="btn" value="Connexion">
+		 </form>
+		</div>
+	  </div>
+	</div>
+
+<script>
+	   var x = document.getElementById("login");
+	   var y = document.getElementById("register");
+	   var z = document.getElementById("btn");
+	   
+	   function register()
+	   {
+	     x.style.left = "-400px";
+		 y.style.left = "50px";
+		 z.style.left = "110px";
+	   }
+	   function login()
+	   {
+	     x.style.left = "50px";
+		 y.style.left = "450px";
+		 z.style.left = "0px";
+	   }
+</script>
+
+</body>
+</html>

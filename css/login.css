@@ -1,0 +1,127 @@
+*
+{
+  margin : 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  font-size: 13px;
+}
+
+/*photo du fond*/
+.avatar
+{
+  height: 100%;
+  width:  100%;
+  background-image: url(loginbackground.jpg);
+  background-size: cover;
+  position : absolute;  
+}
+/* carre noir */
+.formbox
+{
+   width: 350px;
+  height: 450px;
+  color: white;
+  position: relative;
+  margin: 10% auto;
+  background: black;
+  padding: 10px;
+  overflow: hidden;
+}
+/* img rouge */
+.profile
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+	text-align: center;
+}
+/*balise verte*/
+.btnbox
+{
+  top: 55px;
+  width: 243px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 20px;
+  background: green;
+}
+.togglebtn
+{
+	padding: 10px 30px ;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+
+.socialicns
+{
+	margin: 70px auto;
+	text-align: center;
+}
+.socialicns img
+{
+	width: 30px;
+	margin:0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.inputgrp
+{
+	top:180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.inputfield
+{
+	color: white;
+	width:100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid green;
+  color: green;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.chkbx
+{
+	margin: 30px 10px 30px 0;
+}
+.span
+{
+	color: #777;
+	font-size :12px;
+	bottom: 68px;
+	position: absolute;
+}
+.p
+{
+	color: white;
+}
+#login
+{
+	left: 50px;
+}
+#register
+{
+	left: 450px;
+}
